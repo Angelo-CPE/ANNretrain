@@ -18,7 +18,7 @@ from scipy.signal import hilbert
 import time
 
 # ---- Configuration ----
-ROOT_DIR = './dataset'        # should contain 'flawed' and 'not flawed' subfolders
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))        # should contain 'flawed' and 'not flawed' subfolders
 TEST_SIZE = 0.1               # proportion for test split
 VAL_SIZE = 0.2                # proportion of remaining for validation
 RANDOM_STATE = 42
