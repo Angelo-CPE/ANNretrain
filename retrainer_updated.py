@@ -25,7 +25,7 @@ RANDOM_STATE = 42
 BATCH_SIZE = 32
 EPOCHS = 50
 LEARNING_RATE = 1e-3
-UNKNOWN_THRESHOLD = 0.7       # softmax confidence threshold
+UNKNOWN_THRESHOLD = 0.5       # softmax confidence threshold
 
 def load_data_from_directory(directory):
     """
